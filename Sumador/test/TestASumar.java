@@ -21,6 +21,12 @@ public void testNumeroNegativo() {
 }
 
 
+@Test
+public void testNumeroMayor() {
+	ASumar sumi = new ASumar("234");
+	String resultado = sumi.mostrar();
+	assertEquals("2 + 3 + 4 = 9", resultado);
+}
 
 
 
