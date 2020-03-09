@@ -22,6 +22,13 @@ public class ASumar {
         if (numero.length() == 1) {
             numero = (numero + " = " + numero);
         }
+        
+        int numEntero = Integer.parseInt(valor_inicial);
+        
+		if (numEntero < 0) { 
+			numero = "negativo";
+		}
+		
         return numero;
         
 	}

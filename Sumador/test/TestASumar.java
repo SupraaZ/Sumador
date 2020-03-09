@@ -12,4 +12,18 @@ public void testUnaCifra() {
     assertEquals("5 = 5",resultado );
     
 }
+
+@Test
+public void testNumeroNegativo() {
+	ASumar sumi = new ASumar("-5");
+	String resultado = sumi.mostrar();
+	assertEquals("negativo", resultado);
+}
+
+
+
+
+
+
+
 }
